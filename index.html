@@ -8,6 +8,24 @@
     <title>Etch Sketch</title>
 </head>
 <body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <div class="color">
+                    <input type="color" class="color-picker">
+                </div>
+                <input type="button" value="color" class="color-mode">
+                <input type="button" value="rainbow" class="rainbow-mode">
+                <input type="button" value="eraser" class="eraser active">
+                <input type="button" value="clear" class="clear">
+                <input type="range" min="1" max="64" value="16" class="grid-amount">
+                <p>Grid size: <span class="grid-size-text">16 x 16</span></p>
+            </ul>
+        </nav> 
+        <div class="draw-container">
+            
+        </div>
+    </div>
     <script src="./scripts/app.js"></script>
 </body>
 </html>
